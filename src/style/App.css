@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.App{
+    margin: 150px auto;
+}
+
+form{
+    max-width: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 25px;
+    border: 2px solid #e7e7e7;
+    border-radius: 5px;
+}
+form label {
+    /* font-size: 18px; */
+    font-weight: 600;
+}
+form input {
+    height: 30px;
+    padding: 4px 6px;
+    border-radius: 8px;
+    border: none;
+    border: 1px solid black;
+    /* margin-bottom: 10px; */
+    outline: none;
+}
+form #btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form button{
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-size: 17px;
+    border: none;
+    color: #fff;
+    background-color: #046df6;
+    cursor: pointer;
+}
+form p{
+    color: red;
+    margin-bottom: 5px;
+}
